@@ -1,12 +1,11 @@
-Number and name of feature: Feature #1: Display Images, Feature #2: Allow Users to Favorite Individual Beasts Feature 3: Bootstrap____________________________
+# Number and name of feature: Feature #1: Display a Modal
 
 Estimate of time needed to complete: 2 hours
 
-Start time: 1pm
+Start time: 1:45pm
 
-Finish time: 2:19pm
-
-Actual time needed to complete: 1hr 20 min
+Finish time: 4:45pm
+Actual time needed to complete: 3 hrs
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
