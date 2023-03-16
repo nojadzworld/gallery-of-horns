@@ -18,6 +18,10 @@ favorites: this.state.favorites + 1
 
 }
 
+handleNameClick = () => {
+  this.props.handleOpenModal(this.props.title)
+   
+}
 
 
 
@@ -33,7 +37,7 @@ render(){
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={this.props.image_url} alt={this.props.name} onClick={this.handleFavorites} />
       <Card.Body>
-        <Card.Title>{this.props.title}</Card.Title>
+        <Card.Title onClick={this.handleNameClick}>{this.props.title}</Card.Title>
         <Card.Text>
           {this.props.description}
           <p><span role='img' aria-label='heart'>❤️</span>{this.state.favorites} Favorites</p>
