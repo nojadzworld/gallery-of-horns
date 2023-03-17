@@ -7,27 +7,22 @@ import Footer from './Footer';
 
 
 
-
-
-
 class App extends React.Component {
+ 
+ 
+  render() {
+    return (
+      <>
+        <Header />
+        <Main />
+        <Footer />
+
+      </>
+
+    )
 
 
-
-
-render(){
-return (
-<>
-<Header />
-<Main />
-<Footer/>
-
-</>
-
-)
-
-
-}
+  }
 
 
 }
